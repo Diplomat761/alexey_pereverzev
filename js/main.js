@@ -8,15 +8,4 @@ $(document).ready(function(){
     });
   });
 
-  // Выберем кнопку и форму
-const $button = document.querySelector('');
-const $form = document.querySelector('');
-      
-// При клике на кнопку
-$button.addEventListener('click', e => {
-  // Прокрутим страницу к форме 
-  $form.scrollIntoView({ 
-    block: 'nearest', // к ближайшей границе экрана
-    behavior: 'smooth', // и плавно 
-  });
-});
+  
